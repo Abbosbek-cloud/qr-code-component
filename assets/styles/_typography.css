@@ -18,13 +18,15 @@ p {
   font-weight: 700;
   font-size: 1.375rem;
   color: var(--main-text-color);
-  margin: 0.5rem auto 1.19rem auto;
+  margin-top: 9px;
+  margin-bottom: 19px;
 }
 
 .body-text {
   font-weight: 400;
   font-size: 0.938rem;
   color: var(--secondary-text-color);
+  margin-bottom: 45px;
 }
 
 .footer-text {
