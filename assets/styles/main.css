@@ -1,0 +1,34 @@
+@import url("./_typography.css");
+@import url("./_colors.css");
+@import url("./_typography.css");
+
+body {
+  background: var(--main-bg-color);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  padding: 23px;
+}
+
+.qrcode-container {
+  width: min(100%, 315px);
+  padding: 18px;
+  background: var(--white);
+  border-radius: 15px;
+  margin-bottom: 28px;
+}
+
+.qrcode-image {
+  width: 280px;
+  max-width: 100%;
+}
+
+.qrcode-image img {
+  width: 100%;
+}
